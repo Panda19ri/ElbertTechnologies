@@ -1,0 +1,53 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+body h1,h2{
+    text-align:center;
+}
+h1{
+    color:red;
+}
+h2{
+    color: blue;
+}
+.Breakfasts{
+    border: 1px solid deeppink;
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+.lunch{
+    border: 1px solid deeppink;
+    
+}
+
+
+.nonveg{
+    text-align: left;
+}
+
+.nonveg h1,i{
+    color:green;
+    
+}
+.nonveg p {
+    text-align: center;
+}
+i{
+    color: blue;
+    text-decoration: underline;
+}
+.CoolDrinks{
+    border: 1px solid;
+    color:deeppink;
+}
+#Contact{
+    color:tomato;
+    text-align: center;
+}
+.footer{
+    color:blueviolet;
+    text-align: right;
+    font-style:italic;
+
+}

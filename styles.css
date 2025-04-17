@@ -1,0 +1,25 @@
+/* Element Selector */
+p{
+    background-color: black;
+    color:white;
+}
+/* class selector */
+.head {
+    color:red;
+    border:12px solid;
+}
+/* id selector */
+#door{
+    background-color: yellow;
+    list-style: none;
+    line-height:1.6;
+    border-radius: 90px;
+}
+/* universal selector */
+*{
+    background-color:green;
+}
+/* groping selector */
+span,h1{
+    color:violet;
+}

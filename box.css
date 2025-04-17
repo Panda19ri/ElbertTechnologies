@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+}
+.margin-box{
+    text-align: left;
+    margin: 90px;
+    background-color:white;
+    padding: 20px;
+}
+.border-box
+{   
+    text-align: left;
+    border: 10px solid;
+    background-color: rgb(96, 96, 26);
+    padding: 20px;
+}
+.padding-box{
+    text-align: left;
+    padding: 40px;
+    background-color: red;
+
+}
+.content-box{
+    padding: 30px;
+    content: normal;
+    text-align: center;
+    background-color: blue;
+}
+.hii{
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+}
