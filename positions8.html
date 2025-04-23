@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        img{
+            background-color: brown;
+        }
+        /* .source{
+            position: static;
+        } */
+        /* .source{
+            position: relative;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+        } */
+        /* .source{
+            position: relative;
+            top: 50px;
+            /* left: 40px; */ 
+            /* right : 50px; */
+            /* bottom: 60px; */
+        /* } */ 
+        /* .source{
+              position: absolute;
+              top: 30px;
+              right: 50px;
+        } */
+         .source{
+            position: sticky;
+            top: 30px;
+          
+
+         }
+    </style>
+</head>
+<body>
+    <!-- positions are of 5 types
+        static(default position)
+        relative(can change the posktion of the element based on its relative position &can be scrolled with document flow)
+        fixed(change the position based on the vieweport or screen  & position will be fixed  )
+        absolute:similar to fixed(will change the position relative to the closest positioned parent, else it will position with respect to viewport )
+        sticky(initially position with noraml document flow once it position is triggered it will become fixed)
+        z-index(used with sticky) -->
+        <!-- fixed and relative difference:when we declare position as fixed it adjust or fit to viewport -->
+        <div class="image-header"> 
+            <img class="source" src="fair.png">
+        </div>
+</body>
+</html>
